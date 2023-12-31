@@ -1,0 +1,77 @@
+CRITICAL - 2022-03-12 02:55:30 --> required  is not a valid rule.
+#0 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('judul', 'judul', '', Array, Array)
+#2 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\Users\User\Desktop\CI4Tur\06_Validation\app\Controllers\Komik.php(69): CodeIgniter\Controller->validate(Array)
+#4 C:\Users\User\Desktop\CI4Tur\06_Validation\system\CodeIgniter.php(832): App\Controllers\Komik->save()
+#5 C:\Users\User\Desktop\CI4Tur\06_Validation\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\Users\User\Desktop\CI4Tur\06_Validation\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\User\Desktop\CI4Tur\06_Validation\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\User\\D...')
+#9 {main}
+CRITICAL - 2022-03-12 02:57:25 --> required  is not a valid rule.
+#0 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('judul', 'judul', 'Na', Array, Array)
+#2 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\Users\User\Desktop\CI4Tur\06_Validation\app\Controllers\Komik.php(69): CodeIgniter\Controller->validate(Array)
+#4 C:\Users\User\Desktop\CI4Tur\06_Validation\system\CodeIgniter.php(832): App\Controllers\Komik->save()
+#5 C:\Users\User\Desktop\CI4Tur\06_Validation\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\Users\User\Desktop\CI4Tur\06_Validation\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\User\Desktop\CI4Tur\06_Validation\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\User\\D...')
+#9 {main}
+CRITICAL - 2022-03-12 02:59:34 --> required  is not a valid rule.
+#0 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('judul', 'judul', '', Array, Array)
+#2 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\Users\User\Desktop\CI4Tur\06_Validation\app\Controllers\Komik.php(69): CodeIgniter\Controller->validate(Array)
+#4 C:\Users\User\Desktop\CI4Tur\06_Validation\system\CodeIgniter.php(832): App\Controllers\Komik->save()
+#5 C:\Users\User\Desktop\CI4Tur\06_Validation\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\Users\User\Desktop\CI4Tur\06_Validation\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\User\Desktop\CI4Tur\06_Validation\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\User\\D...')
+#9 {main}
+CRITICAL - 2022-03-12 03:02:09 --> required  is not a valid rule.
+#0 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('judul', 'judul', '', Array, Array)
+#2 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\Users\User\Desktop\CI4Tur\06_Validation\app\Controllers\Komik.php(71): CodeIgniter\Controller->validate(Array)
+#4 C:\Users\User\Desktop\CI4Tur\06_Validation\system\CodeIgniter.php(832): App\Controllers\Komik->save()
+#5 C:\Users\User\Desktop\CI4Tur\06_Validation\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\Users\User\Desktop\CI4Tur\06_Validation\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\User\Desktop\CI4Tur\06_Validation\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\User\\D...')
+#9 {main}
+CRITICAL - 2022-03-12 03:02:44 --> required  is not a valid rule.
+#0 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('judul', 'judul', '', Array, Array)
+#2 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\Users\User\Desktop\CI4Tur\06_Validation\app\Controllers\Komik.php(71): CodeIgniter\Controller->validate(Array)
+#4 C:\Users\User\Desktop\CI4Tur\06_Validation\system\CodeIgniter.php(832): App\Controllers\Komik->save()
+#5 C:\Users\User\Desktop\CI4Tur\06_Validation\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\Users\User\Desktop\CI4Tur\06_Validation\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\User\Desktop\CI4Tur\06_Validation\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\User\\D...')
+#9 {main}
+CRITICAL - 2022-03-12 03:05:50 --> required  is not a valid rule.
+#0 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('judul', 'judul', '', Array, Array)
+#2 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\Users\User\Desktop\CI4Tur\06_Validation\app\Controllers\Komik.php(71): CodeIgniter\Controller->validate(Array)
+#4 C:\Users\User\Desktop\CI4Tur\06_Validation\system\CodeIgniter.php(832): App\Controllers\Komik->save()
+#5 C:\Users\User\Desktop\CI4Tur\06_Validation\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\Users\User\Desktop\CI4Tur\06_Validation\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\User\Desktop\CI4Tur\06_Validation\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\User\\D...')
+#9 {main}
+CRITICAL - 2022-03-12 03:06:14 --> required  is not a valid rule.
+#0 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('judul', 'judul', '', Array, Array)
+#2 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\Users\User\Desktop\CI4Tur\06_Validation\app\Controllers\Komik.php(71): CodeIgniter\Controller->validate(Array)
+#4 C:\Users\User\Desktop\CI4Tur\06_Validation\system\CodeIgniter.php(832): App\Controllers\Komik->save()
+#5 C:\Users\User\Desktop\CI4Tur\06_Validation\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\Users\User\Desktop\CI4Tur\06_Validation\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\User\Desktop\CI4Tur\06_Validation\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\User\Desktop\CI4Tur\06_Validation\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\User\\D...')
+#9 {main}

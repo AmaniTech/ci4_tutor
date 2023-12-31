@@ -1,0 +1,16 @@
+CRITICAL - 2022-06-16 05:10:57 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 D:\backup\CI4Tur\10_Pagination_Searching\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 D:\backup\CI4Tur\10_Pagination_Searching\spark(45): require('D:\\backup\\CI4Tu...')
+#2 {main}
+CRITICAL - 2022-06-16 05:11:43 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 D:\backup\CI4Tur\10_Pagination_Searching\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 D:\backup\CI4Tur\10_Pagination_Searching\spark(45): require('D:\\backup\\CI4Tu...')
+#2 {main}
+CRITICAL - 2022-06-16 05:35:43 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\Qomarus Zamani\Desktop\CI4Tur\10_Pagination_Searching\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\Qomarus Zamani\Desktop\CI4Tur\10_Pagination_Searching\spark(45): require('C:\\Users\\Qomaru...')
+#2 {main}
+CRITICAL - 2022-06-16 05:41:18 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\Qomarus Zamani\Desktop\CI4Tur\10_Pagination_Searching\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\Qomarus Zamani\Desktop\CI4Tur\10_Pagination_Searching\spark(45): require('C:\\Users\\Qomaru...')
+#2 {main}

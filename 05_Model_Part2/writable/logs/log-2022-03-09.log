@@ -1,0 +1,24 @@
+CRITICAL - 2022-03-09 02:38:25 --> Trying to access array offset on value of type null
+#0 C:\Users\User\Desktop\CI4Tutor\05_Model_Part2\app\Views\komik\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\User\\D...', 12)
+#1 C:\Users\User\Desktop\CI4Tutor\05_Model_Part2\system\View\View.php(210): include('C:\\Users\\User\\D...')
+#2 C:\Users\User\Desktop\CI4Tutor\05_Model_Part2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\User\Desktop\CI4Tutor\05_Model_Part2\system\Common.php(1089): CodeIgniter\View\View->render('komik/detail', Array, true)
+#4 C:\Users\User\Desktop\CI4Tutor\05_Model_Part2\app\Controllers\Komik.php(39): view('komik/detail', Array)
+#5 C:\Users\User\Desktop\CI4Tutor\05_Model_Part2\system\CodeIgniter.php(832): App\Controllers\Komik->detail('save')
+#6 C:\Users\User\Desktop\CI4Tutor\05_Model_Part2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 C:\Users\User\Desktop\CI4Tutor\05_Model_Part2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\User\Desktop\CI4Tutor\05_Model_Part2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\User\Desktop\CI4Tutor\05_Model_Part2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\User\\D...')
+#10 {main}
+CRITICAL - 2022-03-09 02:55:44 --> Allowed fields must be specified for model: App\Models\KomikModel
+#0 C:\Users\User\Desktop\CI4Tutor\05_Model_Part2\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Komi...')
+#1 C:\Users\User\Desktop\CI4Tutor\05_Model_Part2\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\Users\User\Desktop\CI4Tutor\05_Model_Part2\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\Users\User\Desktop\CI4Tutor\05_Model_Part2\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\Users\User\Desktop\CI4Tutor\05_Model_Part2\app\Controllers\Komik.php(67): CodeIgniter\BaseModel->save(Array)
+#5 C:\Users\User\Desktop\CI4Tutor\05_Model_Part2\system\CodeIgniter.php(832): App\Controllers\Komik->save()
+#6 C:\Users\User\Desktop\CI4Tutor\05_Model_Part2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 C:\Users\User\Desktop\CI4Tutor\05_Model_Part2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\User\Desktop\CI4Tutor\05_Model_Part2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\User\Desktop\CI4Tutor\05_Model_Part2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\User\\D...')
+#10 {main}

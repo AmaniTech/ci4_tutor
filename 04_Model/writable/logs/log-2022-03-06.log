@@ -1,0 +1,11 @@
+CRITICAL - 2022-03-06 06:37:33 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 C:\Users\User\Desktop\CI4Tutor\04_Model\system\View\View.php(210): include()
+#1 C:\Users\User\Desktop\CI4Tutor\04_Model\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\User\Desktop\CI4Tutor\04_Model\system\Common.php(1089): CodeIgniter\View\View->render('komik/index', Array, true)
+#3 C:\Users\User\Desktop\CI4Tutor\04_Model\app\Controllers\Komik.php(12): view('komik/index', Array)
+#4 C:\Users\User\Desktop\CI4Tutor\04_Model\system\CodeIgniter.php(832): App\Controllers\Komik->index()
+#5 C:\Users\User\Desktop\CI4Tutor\04_Model\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#6 C:\Users\User\Desktop\CI4Tutor\04_Model\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\User\Desktop\CI4Tutor\04_Model\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\User\Desktop\CI4Tutor\04_Model\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\User\\D...')
+#9 {main}

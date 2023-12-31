@@ -1,0 +1,33 @@
+CRITICAL - 2022-03-19 01:02:05 --> unlink(assest/img/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assest/i...', 'C:\\Users\\User\\D...', 136)
+#1 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\app\Controllers\Komik.php(136): unlink('assest/img/')
+#2 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\system\CodeIgniter.php(832): App\Controllers\Komik->delete('12')
+#3 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#4 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\User\\D...')
+#7 {main}
+CRITICAL - 2022-03-19 01:02:10 --> Undefined variable $komik
+#0 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\app\Views\komik\create.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\User\\D...', 17)
+#1 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\system\View\View.php(210): include('C:\\Users\\User\\D...')
+#2 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\system\Common.php(1089): CodeIgniter\View\View->render('komik/create', Array, true)
+#4 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\app\Controllers\Komik.php(62): view('komik/create', Array)
+#5 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\system\CodeIgniter.php(832): App\Controllers\Komik->create()
+#6 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\User\\D...')
+#10 {main}
+CRITICAL - 2022-03-19 01:02:10 --> Undefined variable $komik
+#0 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\app\Views\komik\create.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\User\\D...', 17)
+#1 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\system\View\View.php(210): include('C:\\Users\\User\\D...')
+#2 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\system\Common.php(1089): CodeIgniter\View\View->render('komik/create', Array, true)
+#4 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\app\Controllers\Komik.php(62): view('komik/create', Array)
+#5 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\system\CodeIgniter.php(832): App\Controllers\Komik->create()
+#6 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\User\Desktop\CI4Tur\09_Migrasi_Seeder_Faker\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\User\\D...')
+#10 {main}

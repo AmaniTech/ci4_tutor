@@ -1,0 +1,12 @@
+CRITICAL - 2022-03-20 17:48:52 --> Undefined variable $komik
+#0 C:\Users\User\Desktop\CI4Tur\10_Pagination_Searching\app\Views\komik\create.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\User\\D...', 17)
+#1 C:\Users\User\Desktop\CI4Tur\10_Pagination_Searching\system\View\View.php(210): include('C:\\Users\\User\\D...')
+#2 C:\Users\User\Desktop\CI4Tur\10_Pagination_Searching\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\User\Desktop\CI4Tur\10_Pagination_Searching\system\Common.php(1089): CodeIgniter\View\View->render('komik/create', Array, true)
+#4 C:\Users\User\Desktop\CI4Tur\10_Pagination_Searching\app\Controllers\Komik.php(62): view('komik/create', Array)
+#5 C:\Users\User\Desktop\CI4Tur\10_Pagination_Searching\system\CodeIgniter.php(832): App\Controllers\Komik->create()
+#6 C:\Users\User\Desktop\CI4Tur\10_Pagination_Searching\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#7 C:\Users\User\Desktop\CI4Tur\10_Pagination_Searching\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\User\Desktop\CI4Tur\10_Pagination_Searching\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\User\Desktop\CI4Tur\10_Pagination_Searching\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\User\\D...')
+#10 {main}

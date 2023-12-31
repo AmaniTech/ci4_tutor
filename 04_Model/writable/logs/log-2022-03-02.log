@@ -1,0 +1,34 @@
+CRITICAL - 2022-03-02 17:34:22 --> Too few arguments to function App\Controllers\Coba::about(), 0 passed in C:\Users\User\Desktop\CI4Tutor\01_Routers_Controller\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\User\Desktop\CI4Tutor\01_Routers_Controller\system\CodeIgniter.php(832): App\Controllers\Coba->about()
+#1 C:\Users\User\Desktop\CI4Tutor\01_Routers_Controller\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#2 C:\Users\User\Desktop\CI4Tutor\01_Routers_Controller\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\User\Desktop\CI4Tutor\01_Routers_Controller\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\User\Desktop\CI4Tutor\01_Routers_Controller\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\User\\D...')
+#5 {main}
+CRITICAL - 2022-03-02 17:34:26 --> Too few arguments to function App\Controllers\Coba::about(), 0 passed in C:\Users\User\Desktop\CI4Tutor\01_Routers_Controller\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\User\Desktop\CI4Tutor\01_Routers_Controller\system\CodeIgniter.php(832): App\Controllers\Coba->about()
+#1 C:\Users\User\Desktop\CI4Tutor\01_Routers_Controller\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+#2 C:\Users\User\Desktop\CI4Tutor\01_Routers_Controller\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\User\Desktop\CI4Tutor\01_Routers_Controller\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\User\Desktop\CI4Tutor\01_Routers_Controller\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\User\\D...')
+#5 {main}
+CRITICAL - 2022-03-02 18:43:15 --> Invalid file: home.php
+#0 C:\Users\User\Desktop\CI4Tutor\02_Views\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\Users\User\Desktop\CI4Tutor\02_Views\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\Users\User\Desktop\CI4Tutor\02_Views\app\Controllers\Pages.php(9): view('home')
+#3 C:\Users\User\Desktop\CI4Tutor\02_Views\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#4 C:\Users\User\Desktop\CI4Tutor\02_Views\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\Users\User\Desktop\CI4Tutor\02_Views\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\User\Desktop\CI4Tutor\02_Views\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\User\Desktop\CI4Tutor\02_Views\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\User\\D...')
+#8 {main}
+CRITICAL - 2022-03-02 18:48:43 --> Invalid file: about.php
+#0 C:\Users\User\Desktop\CI4Tutor\02_Views\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about.php')
+#1 C:\Users\User\Desktop\CI4Tutor\02_Views\system\Common.php(1089): CodeIgniter\View\View->render('about', Array, true)
+#2 C:\Users\User\Desktop\CI4Tutor\02_Views\app\Controllers\Pages.php(13): view('about')
+#3 C:\Users\User\Desktop\CI4Tutor\02_Views\system\CodeIgniter.php(832): App\Controllers\Pages->about()
+#4 C:\Users\User\Desktop\CI4Tutor\02_Views\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\Users\User\Desktop\CI4Tutor\02_Views\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\User\Desktop\CI4Tutor\02_Views\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\User\Desktop\CI4Tutor\02_Views\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\User\\D...')
+#8 {main}

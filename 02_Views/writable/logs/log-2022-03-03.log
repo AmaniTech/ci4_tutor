@@ -1,0 +1,12 @@
+CRITICAL - 2022-03-03 20:26:57 --> Undefined variable $judul
+#0 C:\Users\User\Desktop\CI4Tutor\02_Views\app\Views\layout\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\User\\D...', 8)
+#1 C:\Users\User\Desktop\CI4Tutor\02_Views\system\View\View.php(210): include('C:\\Users\\User\\D...')
+#2 C:\Users\User\Desktop\CI4Tutor\02_Views\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\User\Desktop\CI4Tutor\02_Views\system\Common.php(1089): CodeIgniter\View\View->render('layout/header', Array, true)
+#4 C:\Users\User\Desktop\CI4Tutor\02_Views\app\Controllers\Pages.php(18): view('layout/header')
+#5 C:\Users\User\Desktop\CI4Tutor\02_Views\system\CodeIgniter.php(832): App\Controllers\Pages->about()
+#6 C:\Users\User\Desktop\CI4Tutor\02_Views\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\Users\User\Desktop\CI4Tutor\02_Views\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\User\Desktop\CI4Tutor\02_Views\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\User\Desktop\CI4Tutor\02_Views\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\User\\D...')
+#10 {main}

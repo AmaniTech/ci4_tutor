@@ -1,0 +1,9 @@
+CRITICAL - 2022-03-18 04:09:03 --> unlink(assest/img): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assest/i...', 'C:\\Users\\User\\D...', 208)
+#1 C:\Users\User\Desktop\CI4Tur\08_Upload_File\app\Controllers\Komik.php(208): unlink('assest/img')
+#2 C:\Users\User\Desktop\CI4Tur\08_Upload_File\system\CodeIgniter.php(832): App\Controllers\Komik->update('12')
+#3 C:\Users\User\Desktop\CI4Tur\08_Upload_File\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#4 C:\Users\User\Desktop\CI4Tur\08_Upload_File\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\User\Desktop\CI4Tur\08_Upload_File\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\User\Desktop\CI4Tur\08_Upload_File\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\User\\D...')
+#7 {main}
